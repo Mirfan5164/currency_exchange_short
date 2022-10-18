@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="convert_me.js"></script>
+</head>
+<body>
+ <div class="container">
+     <div class="sub-container">
+      <fieldset>
+        <legend>Currency Exchange:</legend>
+         <span>
+           <label>From:</label>
+           <select name="currency" id="from-currency">
+            <option value="">--Currency--</option>
+            <option value="AED">AED</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="AUD">AUD</option>
+            <option value="JYP">JYP</option>
+            <option value="NZD">NZD</option>
+            <option value="SEK">SEK</option>
+            <option value="SAR">SAR</option>
+           </select>
+           <input type="text" name="befor_converted" value="" id="from-convert"/>
+         </span>
+         <span>
+           <label>To:</label>
+           <select name="currency" id="to-currency">
+            <option value="">--Currency--</option>
+            <option value="AED">AED</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="AUD">AUD</option>
+            <option value="JYP">JYP</option>
+            <option value="NZD">NZD</option>
+            <option value="SEK">SEK</option>
+            <option value="SAR">SAR</option>
+           </select>
+           <input type="text" name="converted" id="to-convert" disabled="disabled"/>
+         </span>
+         <br>
+         <span>
+           <input type="submit" name="" value="Convert" class="submit-btn" onclick="convert(this.value)"/>
+        </span>
+      </fieldset>
+      <div class="copy_right">&copy; 2022</div>
+     </div>
+ </div>
+</body>
+</html>

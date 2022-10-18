@@ -1,0 +1,23 @@
+body{
+ background-color: bisque;
+}
+.container{
+ text-align: center;
+ width: 100%;
+}
+.sub-container{
+ margin-top: 250px;
+ text-align: center;
+ margin-left: 470px;
+}
+.sub-container fieldset{
+ text-align: center;
+ width: 600px;
+}
+.submit-btn{
+ margin: 12px 0px 0px 516px;
+ background-color: rgba(216, 129, 23, 0.833);
+}
+.copy_right{
+    margin: 4px 0px 0px -426px;
+}
